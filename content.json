@@ -1,0 +1,93 @@
+{
+  "site": {
+    "meta_title": "Wesley Holley — Creative Director",
+    "meta_description": "Portfolio of Wesley Holley, Creative Director. Two decades partnering with leading tech companies to turn complex ideas into compelling visual stories."
+  },
+  "hero": {
+    "first_name": "WESLEY",
+    "last_name": "HOLLEY",
+    "role": "CREATIVE DIRECTOR",
+    "tagline": "PORTFOLIO 2026"
+  },
+  "about": {
+    "heading": "About",
+    "headshot": "/images/headshot.png",
+    "name_label": "WESLEY HOLLEY",
+    "role_label": "CREATIVE DIRECTOR",
+    "paragraphs": [
+      "I believe that the best design does more than just catch the eye—it has to work hard, too. For over two decades, I've partnered with leading tech companies like Domo to help them grow and connect with their audience. My passion is taking complex ideas and turning them into clear, compelling visual stories that not only look great but also deliver real, measurable results. It's about transforming data into a narrative that people can feel and respond to.",
+      "This philosophy is built on a foundation of deep curiosity and collaboration. I lead creative teams by fostering an environment where we can dive into the data, understand the business goals, and, most importantly, empathize with the end-user. The legendary designer Paul Rand said it best: ‘Don't try to be original, just try to be good.’ That principle is at the heart of my work.",
+      "It's not just about creating a beautiful interface or a clever campaign; it's about building trust and making complex technology feel intuitive and human. By putting people at the heart of the story, we create designs that resonate, inspire action, and forge lasting brand loyalty."
+    ]
+  },
+  "work_heading": "Selected Work",
+  "projects": [
+    {
+      "title": "Logo Designs",
+      "description": "A selection of brand marks created as contract work — Autism Mama, CEO.com, Nickel, Octant, Pop Pilates, Red Alert Club, Sail RX, Salt Caddy, and Truly Muley.",
+      "image": "/images/logo-designs.jpg"
+    },
+    {
+      "title": "Design Process",
+      "description": "From exploration to final art — the SKU theme shown across early concepts, refined rounds, and the finished design.",
+      "image": "/images/design-process.jpg"
+    },
+    {
+      "title": "Business Cards",
+      "description": "Domo's CEO loves business cards. We pushed them further with multiple styles, die-cuts, and textures for our employees.",
+      "image": "/images/business-cards.jpg"
+    },
+    {
+      "title": "Various Designs, Various Formats",
+      "description": "A range of campaign and editorial work spanning print and digital formats.",
+      "image": "/images/various-designs.jpg"
+    },
+    {
+      "title": "Data Never Sleeps",
+      "description": "Domo's flagship infographic series, visualizing how much data the world generates every single minute.",
+      "image": "/images/data-never-sleeps.jpg"
+    },
+    {
+      "title": "Domopalooza",
+      "description": "Event branding and stage design for Domo's annual Domopalooza conference.",
+      "image": "/images/domopalooza.jpg"
+    },
+    {
+      "title": "AI Designs",
+      "description": "Exploratory and campaign visuals built with generative AI tools, under the Domo brand.",
+      "image": "/images/ai-designs.jpg"
+    },
+    {
+      "title": "Domo Brand Identity Guide",
+      "description": "A comprehensive brand identity system defining voice, color, photography, and usage.",
+      "image": "/images/brand-guide.jpg"
+    },
+    {
+      "title": "Domo Goes Public",
+      "description": "Creative assets developed for Domo's 2018 IPO, including illustration and event collateral.",
+      "image": "/images/domo-goes-public.jpg"
+    },
+    {
+      "title": "Interior Design",
+      "description": "Environmental and interior design across Domo's offices.",
+      "image": "/images/interior-design.jpg"
+    },
+    {
+      "title": "Swag Store",
+      "description": "Apparel and merchandise design for the Domo swag store.",
+      "image": "/images/swag-store.jpg"
+    },
+    {
+      "title": "Sponsorship",
+      "description": "Domo x Alex Albon — Formula 1 sponsorship creative built around data, speed, and precision.",
+      "image": "/images/sponsorship.jpg"
+    }
+  ],
+  "contact": {
+    "heading": "Let's work together",
+    "blurb": "Have a project in mind, or just want to talk shop? I'd love to hear from you.",
+    "email": "wesleyholley@gmail.com",
+    "phone": "801-722-4259",
+    "linkedin_url": ""
+  }
+}

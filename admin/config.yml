@@ -1,0 +1,82 @@
+# ============================================================
+#  Sveltia CMS configuration  (the visual editor at /admin)
+# ------------------------------------------------------------
+#  EDIT ONE LINE BELOW:  change YOUR-GITHUB-USERNAME to your
+#  real GitHub username, and (if you named the repo something
+#  else) change wesleyholley-site to your repo name.
+#  Format is:   repo: username/repository-name
+# ============================================================
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/wesleyholley-site
+  branch: main
+  commit_messages:
+    update: 'Edit {{collection}} “{{slug}}” via the editor'
+
+# Where uploaded images are stored in the project and on the site
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: site
+    label: "Website Content"
+    description: "Everything on your site. Edit a section, then click Save & Publish."
+    delete: false
+    files:
+      - name: content
+        label: "All page content"
+        file: "content.json"
+        # Keeps the saved file in the same shape the site reads
+        fields:
+          - label: "Browser tab & search"
+            name: site
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Browser tab title", name: meta_title, widget: string }
+              - { label: "Search-result description", name: meta_description, widget: text }
+
+          - label: "Hero (the big opening screen)"
+            name: hero
+            widget: object
+            fields:
+              - { label: "First name", name: first_name, widget: string }
+              - { label: "Last name", name: last_name, widget: string }
+              - { label: "Role / subtitle (green text)", name: role, widget: string }
+              - { label: "Tagline (bottom-right corner)", name: tagline, widget: string, hint: "Last word is shown in green, e.g. PORTFOLIO 2026" }
+
+          - label: "About section"
+            name: about
+            widget: object
+            fields:
+              - { label: "Section heading", name: heading, widget: string }
+              - { label: "Your photo", name: headshot, widget: image }
+              - { label: "Name label (under photo)", name: name_label, widget: string }
+              - { label: "Role label (under photo)", name: role_label, widget: string }
+              - label: "Bio paragraphs"
+                name: paragraphs
+                widget: list
+                summary: "{{fields.paragraph}}"
+                field: { label: "Paragraph", name: paragraph, widget: text }
+
+          - { label: "Work section heading", name: work_heading, widget: string }
+
+          - label: "Projects (your work)"
+            name: projects
+            widget: list
+            summary: "{{fields.title}}"
+            hint: "Drag to reorder. Click + to add a project, or the trash icon to remove one."
+            fields:
+              - { label: "Title", name: title, widget: string }
+              - { label: "Description", name: description, widget: text }
+              - { label: "Image", name: image, widget: image }
+
+          - label: "Contact section"
+            name: contact
+            widget: object
+            fields:
+              - { label: "Heading", name: heading, widget: string, hint: "Last word shows in green." }
+              - { label: "Intro blurb", name: blurb, widget: text }
+              - { label: "Email", name: email, widget: string }
+              - { label: "Phone", name: phone, widget: string, required: false }
+              - { label: "LinkedIn URL", name: linkedin_url, widget: string, required: false, hint: "Paste your full LinkedIn profile link, or leave blank to hide the button." }

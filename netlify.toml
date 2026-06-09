@@ -1,0 +1,12 @@
+# Netlify settings for this site.
+# It's a plain static site — there is nothing to "build", Netlify
+# just serves the files in this folder.
+[build]
+  publish = "."
+  command = ""
+
+# Always serve the latest content.json (so edits show up immediately)
+[[headers]]
+  for = "/content.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
