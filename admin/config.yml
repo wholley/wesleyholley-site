@@ -8,7 +8,7 @@
 # ============================================================
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/wesleyholley-site
+  repo: wesholley/wesleyholley-site
   branch: main
   commit_messages:
     update: 'Edit {{collection}} “{{slug}}” via the editor'
